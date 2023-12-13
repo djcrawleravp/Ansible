@@ -1,6 +1,5 @@
 ---
-  hosts: all
-
+- hosts: all
   become: true
   tasks:
     - name: apt update
